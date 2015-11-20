@@ -27,14 +27,34 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:</h3>
+        <h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:</h1>
 
-<p>Windows application: <a href="https://github.com/TwitchPlayer/TwitchPlayer/releases">URL</a> .
-It requires livestreamer installed: <a href="http://docs.livestreamer.io/install.html#windows-binaries">URL</a> . 
-And Chrome externtion: <a href="https://github.com/TwitchPlayer/Chrome-Extension">URL</a> .</p>
+<h2>
+<a id="to-enable-our-plugin-you-need-to-download-and-install-this-4-things" class="anchor" href="#to-enable-our-plugin-you-need-to-download-and-install-this-4-things" aria-hidden="true"><span class="octicon octicon-link"></span></a>To enable our plugin you need to download and install this 4 things:</h2>
 
-<p>Now, you are ready to watch your favorire streams using VLC without lags. You just need to right-click stream link and choose "Watch in VLC"</p>
+<h2>
+<a id="1-our-windows-application" class="anchor" href="#1-our-windows-application" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Our <a href="https://github.com/TwitchPlayer/TwitchPlayer/releases">windows application</a>.</h2>
+
+<h2>
+<a id="2-vlc-media-player" class="anchor" href="#2-vlc-media-player" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. <a href="http://www.videolan.org/vlc/">VLC media player</a>.</h2>
+
+<h2>
+<a id="3-livestreamer" class="anchor" href="#3-livestreamer" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. <a href="http://docs.livestreamer.io/install.html#windows-binaries">livestreamer</a>.</h2>
+
+<p>You will get opened config file after instalation of livestreamer:
+<img src="https://github.com/TwitchPlayer/TwitchPlayer.github.io/blob/master/images/Capture1.png" alt="Img">
+Uncomment(delete '#' at the beginning) string that paths to VLC and add <code>--file-caching=10000</code> to the end of it.
+Then add <code>hls-segment-threads=4</code> to the end of the file.</p>
+
+<h2>
+<a id="4-chrome-externtion" class="anchor" href="#4-chrome-externtion" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. <a href="https://github.com/TwitchPlayer/Chrome-Extension/releases/download/1.0/Chrome-Extension.crx">Chrome externtion</a>.</h2>
+
+<p>To install this extension, click the Chrome main menu, point to Tools, and select Extensions to open the Extensions page.
+Drag and drop downloaded CRX file onto the Extensions page to install it.</p>
+
+<h1>
+<a id="now-you-are-ready-to-watch-your-favorire-streams-using-vlc-without-lags-you-just-need-to-right-click-stream-link-and-choose-watch-in-vlc" class="anchor" href="#now-you-are-ready-to-watch-your-favorire-streams-using-vlc-without-lags-you-just-need-to-right-click-stream-link-and-choose-watch-in-vlc" aria-hidden="true"><span class="octicon octicon-link"></span></a>Now, you are ready to watch your favorire streams using VLC without lags. You just need to right-click stream link and choose "Watch in VLC"</h1>
       </section>
     </div>
 
